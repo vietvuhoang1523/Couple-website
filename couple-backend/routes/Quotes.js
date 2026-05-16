@@ -1,6 +1,6 @@
 const router  = require('express').Router();
 const authMid = require('../middleware/auth');
-const Quote   = require('../models/Quote');
+const Quote   = require('../models/quote');
 const User    = require('../models/User');
 
 router.use(authMid);
