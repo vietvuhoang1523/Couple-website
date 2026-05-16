@@ -1,5 +1,5 @@
 const router   = require('express').Router();
-// const authMid  = require('../middleware/auth');
+const authMid  = require('../middleware/auth');
 const Reminder = require('../models/Reminder');
 const User     = require('../models/User');
 
